@@ -1,0 +1,16 @@
+.visible {
+    visibility: hidden;
+}
+
+@media (min-width: 768px) {
+    .visible {
+        visibility: visible;
+        color: lavenderblush;
+    }
+}
+
+@media (min-width: 1200px) {
+    .visible {
+        color: lavenderblush;
+    }
+}
